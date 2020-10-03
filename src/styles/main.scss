@@ -8,9 +8,23 @@ body {
   margin-top: 100px;
 }
 
+.card-container {
+  width: 37%;
+  margin: 1%;
+  background-color: rgb(61, 84, 103);
+  box-shadow: $box-shadow;
+};
+
 #eat.card-container {
   background-color: rgb(68, 187, 164);
   position: absolute;
   top: 8px;
   left:16px;
-}
+};
+
+#play.card-container {
+  background-color: rgb(104, 105, 99);
+  position: absolute;
+  top: 8px;
+  right: 16px;
+};
