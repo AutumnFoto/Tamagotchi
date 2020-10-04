@@ -43,5 +43,4 @@ const fightQuad = () => {
   fightButtons();
   return domString;
 };
-
 export default { fightQuad };
