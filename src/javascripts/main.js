@@ -1,8 +1,16 @@
 import '../styles/main.scss';
+import eatQuad from './components/eatQuad';
+import playQuad from './components/playQuad';
+import fightQuad from './components/fightQuad';
+import sleepQuad from './components/sleepQuad';
+import displayQuad from './components/displayQuad';
 
 const init = () => {
-  $('#app').html('<h1>HELLO! You are up and running!</h1>');
-  console.log('YOU ARE UP AND RUNNING!');
+  eatQuad.eatQuad();
+  playQuad.playQuad();
+  fightQuad.fightQuad();
+  sleepQuad.sleepQuad();
+  displayQuad.displayQuad();
 };
 
 init();

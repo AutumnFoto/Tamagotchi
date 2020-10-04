@@ -1,9 +1,87 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-body {
-  background-color: antiquewhite;
-  color: brown;
-  text-align: center;
-  margin-top: 100px;
+
+
+.cardHeader {
+ margin-bottom:10px;
+  font-family: 'tamagotchi';
 }
+
+body {
+  background-color:#D8D8D8;
+  text-align: center;
+
+ }
+
+.card-container {
+  width: 60%;
+  height: 60%;
+  margin-right: 10%;
+  margin-left: 25%;
+  margin-top: 25%;
+  
+  
+  
+}
+
+#eat.card-container {
+  background-color:#D7F9DA;
+
+}
+
+#fight.card-container {
+  background-color: #D7F9DA;
+
+}
+
+#sleep.card-container {
+  background-color:#D7F9DA;
+
+}
+
+#play.card-container {
+  background-color:#D7F9DA;
+};
+
+#app {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.quad {
+  width: 50%;
+  text-align: center;
+}
+
+#nap{
+  background-color: #91EE91;
+};
+
+#deepSlumber{
+  background-color: #91EE91;
+};
+
+#unhealthy{
+  background-color: #91EE91;
+};
+
+#healthy{
+  background-color: #91EE91;
+};
+
+#slightlyFun {
+  background-color: #91EE91;
+};
+
+#superFun {
+  background-color: #91EE91;
+}
+
+#commitViolence {
+  background-color: #91EE91;
+};
+
+#runningAway {
+  background-color: #91EE91;
+};
